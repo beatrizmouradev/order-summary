@@ -1,0 +1,130 @@
+body {
+    background-color: #E0E8FF;
+    background: url(../img/pattern-background-mobile.svg) #E0E8FF;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 100vh;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+main {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 327px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+}
+
+main img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.summary {
+    margin: 32px 32px 24px;
+}
+
+.sumary__title {
+    margin-bottom: 16px;
+    font-size: 22px;
+    line-height: 29.11px;
+    text-align: center;
+    font-weight: 900;
+    color: #1F2E55;
+
+}
+
+.sumary__subtitle {
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    font-weight: 500;
+    color: #717FA6;
+}
+
+.plan {
+    display: flex;
+    margin: 0 24px;
+    justify-content: space-between;
+    background-color: #F7F9FF;
+    border-radius: 11px;
+}
+
+.plan__image {
+    width: 48px;
+    height: 48px;
+    margin: 17px 20px 16px 16px;
+}
+
+.plan__description {
+    display: flex;
+    flex-direction: column;
+}
+
+.plan__change {
+    font-size: 13px;
+    line-height: 17px;
+    text-align: start;
+    font-weight: bold;
+    color: #382AE1;
+    text-decoration-line: underline;
+    margin: 33px 16px 31px 0;
+
+}
+
+.description__title {
+    font-size: 14px;
+    line-height: 19px;
+    text-align: start;
+    font-weight: 900;
+    color: #1F2E55;
+    margin: 21px 43px 3px 0;
+
+}
+
+.description__price {
+    font-size: 14px;
+    line-height: 19px;
+    text-align: start;
+    font-weight: 500;
+    color: #717FA6;
+    margin: 0 50px 19px 0;
+
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    margin: 24px 24px 32px 24px;
+
+}
+
+.action__payment {
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 19px;
+    outline: none;
+    color: #FFFFFF;
+    padding: 15px 65px;
+    background-color: #382AE1;
+    border: 0;
+    font-family: 'Red Hat Display';
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    border-radius: 11px;
+
+}
+
+.action__cancel {
+    background-color: transparent;
+    margin-top: 24px;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 19px;
+    outline: none;
+    color: #717FA6;
+    border: 0;
+    font-family: 'Red Hat Display';
+}
