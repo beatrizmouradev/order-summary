@@ -72,7 +72,13 @@ main img {
     color: #382AE1;
     text-decoration-line: underline;
     margin: 33px 16px 31px 0;
+    transition: 0.2s;
 
+}
+
+.plan__change:hover {
+    color: #766CF1;
+    text-decoration: none;
 }
 
 .description__title {
@@ -114,7 +120,11 @@ main img {
     font-family: 'Red Hat Display';
     box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
     border-radius: 11px;
+    transition: 0.5s;
+}
 
+.action__payment:hover {
+    background-color: #766CF1;
 }
 
 .action__cancel {
@@ -127,4 +137,9 @@ main img {
     color: #717FA6;
     border: 0;
     font-family: 'Red Hat Display';
+    transition: 0.5s;
+}
+
+.action__cancel:hover {
+    color: #1F2E55;
 }
