@@ -1,10 +1,9 @@
 body {
-    background-color: #E0E8FF;
     background: url(../img/pattern-background-mobile.svg) #E0E8FF;
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
-    height: 100vh;
+    height: 710px;
     font-family: 'Red Hat Display', sans-serif;
 }
 
