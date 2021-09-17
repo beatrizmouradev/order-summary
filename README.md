@@ -11,7 +11,7 @@ Esse projeto é o primeiro desafio da prática de desenvolvimento Front-end do S
 - [x] Estilização do fundo
 - [x] Implementação do responsivo para desktop
 - [x] Transformação do CSS para Scss
-- [ ] Acionamento o modal através de um botão de click
+- [ ] Acionamento do modal através de um botão de click
 
 
 ### Techs 
